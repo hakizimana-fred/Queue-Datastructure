@@ -33,9 +33,9 @@
   }
 
   const issueTicket = new IssueTickets()
-  const passenger1 = new Passenger('fred', 1)
-  const passenger2 = new Passenger('farida', 2)
-  const passenger3 = new Passenger('fredinard', 3)
+  const passenger1 = new Passenger('Hacky', 1)
+  const passenger2 = new Passenger('Sally', 2)
+  const passenger3 = new Passenger('Urther', 3)
 
   issueTicket.orderBookSeats(passenger1)
   issueTicket.orderBookSeats(passenger2)
